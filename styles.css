@@ -1,0 +1,53 @@
+.Title {
+    
+    background-color: white;
+    padding:16px;
+    font-size: 1.5em;
+    display: flex
+    
+}
+.Title a {
+    text-decoration: none;
+    color: #192a56;;
+}
+
+.search-box {
+    position: absolute;
+    top:3.2%;
+    right: 40%;
+    justify-content: center;
+    padding:10px;
+    background: #192a56;
+    border-radius: 10px;
+    height: 10px;
+    width: 20px;
+
+}
+
+.seach-btn{
+    color: white;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+}
+
+.search-txt{
+    border:none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+
+}
